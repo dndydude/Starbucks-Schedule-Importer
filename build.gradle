@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'Main'
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+version = '2.1'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+
+	compile 'com.google.api-client:google-api-client:1.23.0'
+    compile 'com.google.oauth-client:google-oauth-client-jetty:1.23.0'
+    compile 'com.google.apis:google-api-services-calendar:v3-rev296-1.23.0'
+    compile 'org.seleniumhq.selenium:selenium-java:3.10.0'
+    compile 'com.google.guava:guava:21.0'
+	
+}
+
